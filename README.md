@@ -7,14 +7,14 @@
 创建或者获取的audio对象，可通过以下两种方式得到
 **方法1：**
 ```html
-<audio id="music" src="http://cloud.hunger-valley.com/music/玫瑰.mp3">你的浏览器不支持喔！</audio>
+<audio id="music" src="https://cdn.bensound.com/bensound-spotlight.mp3">你的浏览器不支持喔！</audio>
 <script>
 var audioObject = document.querySelector('#music')
 </script>
 ```
 **方法2：**
 ```javaScript
-var audioObject = new Audio('http://cloud.hunger-valley.com/music/玫瑰.mp3')
+var audioObject = new Audio('https://cdn.bensound.com/bensound-spotlight.mp3')
 ```
 #### 2.audioObject.play()
 开始播放
@@ -30,8 +30,8 @@ console.log(audioObject.autoPlay) // true or false
 #### 5.audioObject.src
 设置或者获取音乐地址
 ```javaScript
-audioObject.src = "http://cloud.hunger-valley.com/music/ifyou.mp3"
-console.log(audioObject.src)  // "http://cloud.hunger-valley.com/music/ifyou.mp3"
+audioObject.src = "https://cdn.bensound.com/bensound-spotlight.mp3"
+console.log(audioObject.src)  // "https://cdn.bensound.com/bensound-spotlight.mp3"
 ```
 #### 6.audioObject.volume
 设置或者获取音量，最大值为1，0为静音

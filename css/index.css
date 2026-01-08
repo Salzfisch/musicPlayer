@@ -3,7 +3,7 @@
     /* display: block; */
     width: 100%;
     height: 100%;
-    background: url(http://cloud.hunger-valley.com/17-9-22/87786461.jpg) center center no-repeat;
+    background: url(https://placehold.co/1920x990/f60/31343C?text=Spotlight) center center no-repeat;
     /* background-color: red; */
     background-size: cover;
     filter: blur(2px);
@@ -26,21 +26,24 @@
 .musicBox {
     /* background-color: #fff;
     border: 10px solid blue; */
-    width: 340px;
+    width: 360px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
     font-family: cursive;
     font-size: 16px;
-    color: #f06d6a;
+    /* color: #f06d6a; */
+    /* box-shadow: 4px 6px 3px 2px rgba(0, 0, 0, .1), 4px 6px 3px 2px rgba(0, 0, 0, .8); */
 }
 
 .music-panel {
     border: 2px solid #76dba3;
     padding: 20px 15px 5px 15px;
-    box-shadow: 4px 6px 3px 2px rgba(0, 0, 0, .1), 4px 6px 3px 2px rgba(0, 0, 0, .4);
+    box-shadow: 4px 6px 3px 2px rgba(0, 0, 0, .1), 4px 6px 3px 2px rgba(0, 0, 0, .8);
     background-color: rgba(255, 255, 255, .9);
+    position: relative;
+    z-index: 2;
 }
 
 .musicBox .control {
@@ -75,9 +78,11 @@
     font-size: 24px;
 }
 
-/* .musicBox .info .auther {
-    font-size: 14px;
-} */
+.musicBox .info .auther {
+    margin-top: 5px;
+    padding-left: 40px;
+    /* font-size: 14px; */
+}
 
 /* .musicBox .progress {
     width: 260px;
@@ -120,7 +125,9 @@
 /* .musicBox .list {
     list-style: none;
 } */
-
+.musicBox .list {
+    box-shadow: 4px 6px 3px 2px rgba(0, 0, 0, .6);
+}
 .musicBox .list>li {
     position: relative;
     padding: 4px 10px;
@@ -128,10 +135,12 @@
     border-top: none;
     overflow: hidden;
     cursor: pointer;
+    /* background-color: grey; */
+    /* box-shadow: 4px 6px 3px 2px rgba(0, 0, 0, .6); */
 }
 
 .musicBox .list>li:hover {
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .musicBox .list>li.playing:before {

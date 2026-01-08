@@ -65,12 +65,12 @@ audio.onended = function() {
 $('.musicBox .play ').addEventListener('click', function() {
     if(audio.paused) {
         audio.play()
-        console.log('playing')
+        console.log('playing...')
         this.querySelector('.fa').classList.remove('fa-play')
         this.querySelector('.fa').classList.add('fa-pause')
     } else {
         audio.pause()
-        console.log('pause')
+        console.log('paused')
         this.querySelector('.fa').classList.remove('fa-pause')
         this.querySelector('.fa').classList.add('fa-play')
     }

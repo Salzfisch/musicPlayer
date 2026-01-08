@@ -1,23 +1,25 @@
 [{
-    "src": "http://cloud.hunger-valley.com/music/玫瑰.mp3",
-    "title": "玫瑰",
-    "auther": "贰佰",
-    "img": "http://cloud.hunger-valley.com/17-9-22/28212907.jpg"
-  }, {
-    "src": "http://cloud.hunger-valley.com/music/ifyou.mp3",
-    "title": "IF YOU1",
-    "auther": "Big Bang",
-    "img": "http://cloud.hunger-valley.com/17-9-22/87786461.jpg"
+    "src": "https://cdn.bensound.com/bensound-spotlight.mp3",
+    "title": "Spotlight",
+    "auther": "Neptune",
+    "img": "https://placehold.co/1920x990/f60/31343C?text=Spotlight"
   },
   {
-    "src": "http://cloud.hunger-valley.com/music/ifyou.mp3",
-    "title": "IF YOU2",
-    "auther": "Big Bang",
-    "img": "http://cloud.hunger-valley.com/17-9-22/87786461.jpg"
+    "src": "https://cdn.bensound.com/bensound-stylishcar.mp3",
+    "title": "Stylish Car",
+    "auther": "Moody Finn",
+    "img": "https://placehold.co/1920x990/b3ae6b/31343C?text=Moody+Finn"
   },
   {
-    "src": "http://cloud.hunger-valley.com/music/ifyou.mp3",
-    "title": "IF YOU3",
-    "auther": "Big Bang",
-    "img": "http://cloud.hunger-valley.com/17-9-22/87786461.jpg"
-  }]
+    "src": "https://cdn.bensound.com/bensound-nohipnohop.mp3",
+    "title": "No Hip,No Hop",
+    "auther": "TwinsMusic",
+    "img": "https://placehold.co/1920x990/f60/31343C?text=TwinsMusic"
+  },
+  {
+    "src": "https://cdn.bensound.com/bensound-hittingmotion.mp3",
+    "title": "Hitting Motion",
+    "auther": "Yari",
+    "img": "https://placehold.co/1920x990/b3ae6b/31343C?text=Yari"
+  }
+  ]
